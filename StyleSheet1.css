@@ -1,5 +1,4 @@
-﻿
-:root {
+root {
     --dark: #a6ff00;
     --dark-x: #3d9b64; /* afecta las casillas donde va el gmail y la contraseña */
     --light: #e6b9b9;
@@ -26,15 +25,15 @@ body {
 
 /* Esta regla necesita un selector adecuado */
 .form-control, .btn {
-    min-height: 4.125rem;
+    min-height: 3.125rem;
     
 } 
 
         /* Estilos para el encabezado */
 header {
-    background-color: #AFB3B7; /* Cambia el color de fondo según tu preferencia */
+    background-color: #e0ffff; /* Cambia el color de fondo según tu preferencia */
     color: #ffffff; /* Color de texto */
-    padding: 10px; /* Espaciado interno */
+    padding: 10px; /* Espaciado de el encabezado */
     align-items: center;
 }
 
@@ -59,7 +58,7 @@ header {
 }
 
 .header-options a {
-    color: #000000;
+    color: #000000;/*letras del encabezado*/
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -71,7 +70,7 @@ header {
 
 
 .footer {
-    background-color: #77b9fc;
+    background-color: #e0ffff;
     padding: 50px 0;
     color: #444;
 }
