@@ -1,0 +1,181 @@
+﻿
+:root {
+    --dark: #a6ff00;
+    --dark-x: #3d9b64; /* afecta las casillas donde va el gmail y la contraseña */
+    --light: #e6b9b9;
+}
+
+body {
+   
+    font-weight: 300;
+    background-color: #000000; /* AFECTA LAS LETRAS */
+    font-family: Arial, sans-serif;
+    background-image: url("image1.jpg");
+    position: relative;
+    background-size: 125vw 125vh;
+    background-repeat: no-repeat;
+    }
+
+.bg-dark {
+    background-color:black;
+}
+
+.bg-dark-x {
+    background-color: rgba(212, 212, 212, 0.575);/*cambia el contorno del login*/
+}
+
+/* Esta regla necesita un selector adecuado */
+.form-control, .btn {
+    min-height: 4.125rem;
+    
+} 
+
+        /* Estilos para el encabezado */
+header {
+    background-color: #AFB3B7; /* Cambia el color de fondo según tu preferencia */
+    color: #ffffff; /* Color de texto */
+    padding: 10px; /* Espaciado interno */
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-options ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.text-white {
+    color: #000000!important;
+}
+
+.header-options li {
+    margin-right: 20px;
+}
+
+.header-options a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/*el color del encabezado*/
+.header-options a:hover {
+    color: #ecbfbf;
+}
+
+
+.footer {
+    background-color: #77b9fc;
+    padding: 50px 0;
+    color: #444;
+}
+
+.footer h4 {
+    color: #000000;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer hr {
+    border-color: #ddd;
+}
+
+.footer .container {
+    max-width: 1000px;
+}
+
+.footer .row {
+    margin-bottom: 20px;
+}
+
+.footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.footer p.footer-link {
+    color: #777;
+}
+
+.footer p.footer-link:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Custom CSS for Navbar */
+.navbar-brand img {
+    max-height: 100px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #555;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-bottom: 1000px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
+
+
+        .banner {
+            background-image: url('./assets/img/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .banner-body {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .banner-body h3 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .banner-body p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .banner-body .btn {
+            font-size: 1.5rem;
+            padding: 10px 30px;
+            border-radius: 30px;
+        }
+
